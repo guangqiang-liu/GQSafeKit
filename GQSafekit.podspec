@@ -1,11 +1,12 @@
 
 Pod::Spec.new do |s|
+
   s.name             = 'GQSafeKit'
-  s.version          = '0.0.1'
+  s.version          = '1.0.0'
   s.summary          = 'safeKit'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  TODO: Add long description of the pod here.
                        DESC
                        
   s.homepage         = 'http://www.lianshang.com'
@@ -15,7 +16,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'GQSafeKit/Classes/**/*'
+  s.source_files = 'GQSafekit/Classes/**/*'
   
   s.frameworks = 'UIKit', 'Foundation'
   s.dependency 'FCUUID'

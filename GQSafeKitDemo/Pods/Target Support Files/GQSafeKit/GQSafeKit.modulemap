@@ -1,0 +1,6 @@
+framework module GQSafeKit {
+  umbrella header "GQSafeKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

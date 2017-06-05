@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61E07B7786D40D8E682BA4A8 /* libPods-HelloWord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D0C599B6B6BF60A2D9AACB /* libPods-HelloWord.a */; };
+		0DD13927117D08972FC24C17 /* Pods_HelloWord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F08D0B949209BF08A41BAE60 /* Pods_HelloWord.framework */; };
 		8DF8DDDB1EE46647006C3113 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF8DDDA1EE46647006C3113 /* main.m */; };
 		8DF8DDDE1EE46647006C3113 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF8DDDD1EE46647006C3113 /* AppDelegate.m */; };
 		8DF8DDE11EE46647006C3113 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF8DDE01EE46647006C3113 /* ViewController.m */; };
@@ -29,7 +29,7 @@
 		8DF8DDE51EE46647006C3113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DF8DDE81EE46647006C3113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DF8DDEA1EE46647006C3113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8D0C599B6B6BF60A2D9AACB /* libPods-HelloWord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWord.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08D0B949209BF08A41BAE60 /* Pods_HelloWord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61E07B7786D40D8E682BA4A8 /* libPods-HelloWord.a in Frameworks */,
+				0DD13927117D08972FC24C17 /* Pods_HelloWord.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 		F4C459E6F10EDF4F3EA3883B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C8D0C599B6B6BF60A2D9AACB /* libPods-HelloWord.a */,
+				F08D0B949209BF08A41BAE60 /* Pods_HelloWord.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
